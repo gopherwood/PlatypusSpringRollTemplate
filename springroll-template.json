@@ -1,8 +1,8 @@
 {
-	"name" : "Default",
-	"id" : "io.springroll.default",
-	"version" : "1.4.3",
-	"github": "SpringRoll/SpringRollTemplate",
+	"name" : "Platypus",
+	"id" : "com.gopherwoodstudios.platypus",
+	"version" : "1.0.0",
+	"github": "Gopherwood/PlatypusSpringRollTemplate",
 	"rename" : {
 		"gitignore" : ".gitignore",
 		"bowerrc" : ".bowerrc",
