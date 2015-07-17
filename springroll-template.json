@@ -28,18 +28,18 @@
 				"platypus": "https://github.com/gopherwood/Platypus.git#simplified"
 			},
 			"libraries": [
-				"components/preloadjs/lib/easeljs-0.8.1.min.js",
+				"components/easeljs/lib/easeljs-0.8.1.min.js",
 				"components/preloadjs/lib/preloadjs-0.6.1.min.js",
-				"components/preloadjs/lib/soundjs-0.6.1.min.js",
-				"components/preloadjs/lib/flashaudioplugin-0.6.1.min.js",
-				"components/preloadjs/lib/tweenjs-0.6.1.min.js"
+				"components/soundjs/lib/soundjs-0.6.1.min.js",
+				"components/soundjs/lib/flashaudioplugin-0.6.1.min.js",
+				"components/tweenjs/lib/tweenjs-0.6.1.min.js"
 			],
 			"librariesDebug": [
-				"components/preloadjs/lib/easeljs-0.8.1.combined.js",
+				"components/easeljs/lib/easeljs-0.8.1.combined.js",
 				"components/preloadjs/lib/preloadjs-0.6.1.combined.js",
-				"components/preloadjs/lib/soundjs-0.6.1.combined.js",
-				"components/preloadjs/lib/flashaudioplugin-0.6.1.combined.js",
-				"components/preloadjs/lib/tweenjs-0.6.1.combined.js"
+				"components/soundjs/lib/soundjs-0.6.1.combined.js",
+				"components/soundjs/lib/flashaudioplugin-0.6.1.combined.js",
+				"components/tweenjs/lib/tweenjs-0.6.1.combined.js"
 			],
 			"librariesCopy": {
 				"components/soundjs/src/soundjs/FlashAudioPlugin.swf": "deploy/assets/swfs/"
