@@ -3,7 +3,6 @@
 	"id" : "com.gopherwoodstudios.platypus",
 	"version" : "0.3.0",
 	"github": "Gopherwood/PlatypusSpringRollTemplate",
-	"remove": [".git/"],
 	"rename" : {
 		"gitignore" : ".gitignore",
 		"bowerrc" : ".bowerrc",
