@@ -1,7 +1,7 @@
 {
 	"name" : "Platypus",
 	"id" : "com.gopherwoodstudios.platypus",
-	"version" : "0.3.0",
+	"version" : "0.3.1",
 	"github": "Gopherwood/PlatypusSpringRollTemplate",
 	"rename" : {
 		"gitignore" : ".gitignore",
@@ -17,12 +17,12 @@
 			"name": "Platypus Game Engine",
 			"description": "An HTML5 2D tile-based game framework.",
 			"main": [
-				"components/platypus/lib/platypus-0.3.0.min.js",
-				"components/platypus/lib/platypus-0.3.0.min.css"
+				"components/platypus/lib/platypus-0.3.1.min.js",
+				"components/platypus/lib/platypus-0.3.1.min.css"
 			],
 			"mainDebug": [
-				"components/platypus/lib/platypus-0.3.0.combined.js",
-				"components/platypus/lib/platypus-0.3.0.combined.css"
+				"components/platypus/lib/platypus-0.3.1.combined.js",
+				"components/platypus/lib/platypus-0.3.1.combined.css"
 			],
 			"bower": {
 				"platypus": "https://github.com/gopherwood/Platypus.git#simplified"
