@@ -2,7 +2,7 @@
 (function () {
     "use strict";
 
-	// Library depencencies
+	// Library dependencies
 	var Application = include('springroll.Application'),
 		Display = include('_displayClass_'),
         app = new Application({ // Create a new application
