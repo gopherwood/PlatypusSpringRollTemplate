@@ -1,0 +1,29 @@
+{
+    "id": "button-left",
+    "components":[{
+        "type": "RenderSprite",
+        "image": "buttons",
+        "acceptInput": {
+            "click": true,
+            "touch": true
+        },
+        "eventBased": false,
+        "animationMap": {
+            "pressed": "left,pressed",
+            "default": "left"
+        }
+    },{
+        "type": "LogicButton"
+    },{
+        "type": "RelayLinker",
+        "linkId": "ui-controls",
+        "events":{
+            "pressed":  "go-left",
+            "released": "go-left"
+        }
+    }],
+    "properties": {
+        "x": -300,
+        "y": 200
+    }
+}

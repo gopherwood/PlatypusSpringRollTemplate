@@ -1,0 +1,10 @@
+{
+    "id": "render-layer",
+    "components":[
+        {
+            "type": "RenderTiles",
+            "spriteSheet": "import",
+            "imageMap":    "import"
+        }
+    ]
+}

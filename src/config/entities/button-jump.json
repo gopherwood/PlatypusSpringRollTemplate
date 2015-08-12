@@ -1,0 +1,29 @@
+{
+    "id": "button-jump",
+    "components":[{
+        "type": "RenderSprite",
+        "image": "buttons",
+        "acceptInput": {
+            "click": true,
+            "touch": true
+        },
+        "eventBased": false,
+        "animationMap": {
+            "pressed": "jump,pressed",
+            "default": "jump"
+        }
+    },{
+        "type": "LogicButton"
+    },{
+        "type": "RelayLinker",
+        "linkId": "ui-controls",
+        "events":{
+            "pressed":  "jump",
+            "released": "jump"
+        }
+    }],
+    "properties": {
+        "x": 300,
+        "y": 200
+    }
+}

@@ -1,7 +1,7 @@
 {
 	"name" : "Platypus",
 	"id" : "com.gopherwoodstudios.platypus",
-	"version" : "0.4.0",
+	"version" : "0.4.0-dev",
 	"github": "Gopherwood/PlatypusSpringRollTemplate",
 	"rename" : {
 		"gitignore" : ".gitignore",
@@ -17,15 +17,15 @@
 			"name": "Platypus Game Engine",
 			"description": "An HTML5 2D tile-based game framework.",
 			"main": [
-				"components/platypus/lib/platypus-0.4.0.min.js",
-				"components/platypus/lib/platypus-0.4.0.min.css"
+				"components/platypus/lib/platypus-NEXT.min.js",
+				"components/platypus/lib/platypus-NEXT.min.css"
 			],
 			"mainDebug": [
-				"components/platypus/lib/platypus-0.4.0.combined.js",
-				"components/platypus/lib/platypus-0.4.0.combined.css"
+				"components/platypus/lib/platypus-NEXT.combined.js",
+				"components/platypus/lib/platypus-NEXT.combined.css"
 			],
 			"bower": {
-				"platypus": "https://github.com/gopherwood/Platypus.git#simplified"
+				"platypus": "https://github.com/PBS-KIDS/Platypus.git#dev"
 			},
 			"default": true
 		}

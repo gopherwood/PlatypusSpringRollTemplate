@@ -1,0 +1,29 @@
+{
+    "id": "button-right",
+    "components":[{
+        "type": "RenderSprite",
+        "image": "buttons",
+        "acceptInput": {
+            "click": true,
+            "touch": true
+        },
+        "eventBased": false,
+        "animationMap": {
+            "pressed": "right,pressed",
+            "default": "right"
+        }
+    },{
+        "type": "LogicButton"
+    },{
+        "type": "RelayLinker",
+        "linkId": "ui-controls",
+        "events":{
+            "pressed":  "go-right",
+            "released": "go-right"
+        }
+    }],
+    "properties": {
+        "x": -100,
+        "y": 200
+    }
+}
