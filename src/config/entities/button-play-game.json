@@ -2,7 +2,7 @@
     "id": "button-play-game",
     "components":[{
         "type": "RenderSprite",
-        "image": "buttons",
+        "spriteSheet": "buttons",
         "acceptInput": {
             "click": true,
             "touch": true

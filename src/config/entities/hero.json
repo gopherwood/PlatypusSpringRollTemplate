@@ -41,7 +41,7 @@
                 "moving,grounded":  "walking",
                 "default": "jumping"
             },
-            "image": "mookie"
+            "spriteSheet": "mookie"
         },{
             "type": "Audio",
             "audioMap": {

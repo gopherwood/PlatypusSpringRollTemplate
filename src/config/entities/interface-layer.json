@@ -7,7 +7,7 @@
         "width": 800,
         "height": 600
     },{
-        "type": "HandlerRenderCreateJS"
+        "type": "HandlerRender"
     },{
         "type": "EntityContainer", 
         "entities": [{

@@ -5,7 +5,7 @@
         "components": [{
             "type": "HandlerLogic"
         },{
-            "type": "HandlerRenderCreateJS"
+            "type": "HandlerRender"
         },{
             "type": "Camera",
             "width": 1600,

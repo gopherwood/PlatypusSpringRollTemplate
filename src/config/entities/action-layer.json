@@ -12,7 +12,7 @@
         "height": 720,
         "overflow": true
     },{
-        "type": "HandlerRenderCreateJS"
+        "type": "HandlerRender"
     },{
         "type": "EntityContainer",
         "childEvents": ["link-entity"]
