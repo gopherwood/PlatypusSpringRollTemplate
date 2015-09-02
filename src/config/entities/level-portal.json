@@ -12,7 +12,8 @@
             }
         },{
             "type": "SceneChanger",
-                "transition": "fade-to-black"
+            "scene": "menu",
+            "transition": "fade-to-black"
         }
     ],
     "properties":{

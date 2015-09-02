@@ -7,12 +7,12 @@
     },{
         "type": "HandlerCollision"
     },{
+        "type": "HandlerRender"
+    },{
         "type": "Camera",
         "width": 960,
         "height": 720,
         "overflow": true
-    },{
-        "type": "HandlerRender"
     },{
         "type": "EntityContainer",
         "childEvents": ["link-entity"]

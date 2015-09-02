@@ -3,11 +3,11 @@
     "components": [{
         "type": "HandlerLogic"
     },{
+        "type": "HandlerRender"
+    },{
         "type": "Camera",
         "width": 800,
         "height": 600
-    },{
-        "type": "HandlerRender"
     },{
         "type": "EntityContainer", 
         "entities": [{
