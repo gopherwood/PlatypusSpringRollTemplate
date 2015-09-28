@@ -2,9 +2,7 @@
     "id": "title-screen",
     "components":[{
         "type": "RenderSprite",
-        "image": "title-screen",
-        "regX": 800,
-        "regY": 600
+        "spriteSheet": "title-screen"
     }],
     "properties": {
         "x": 0,

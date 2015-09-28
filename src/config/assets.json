@@ -1,6 +1,0 @@
-[
-    {"id": "buttons",        "src": "assets/images/buttons.png"},
-    {"id": "mookie",         "src": "assets/images/mookie.png"},
-    {"id": "game-sprites",       "src": "assets/images/game-sprites.png"},
-    {"id": "title-screen",   "src": "assets/images/title-screen.png"}
-]

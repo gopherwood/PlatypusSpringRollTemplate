@@ -7,18 +7,11 @@
         return platypus.createComponentClass({
             id: "LogicHero",
             constructor: function (definition) {
-                var state = this.state = this.owner.state;
-                state.swing = false;
-                state.swingHit = false;
                 
-                this.teleportDestination = undefined;
-                this.justTeleported = false;
             },
             events: {
                 "handle-logic": function () {
-                },
-                "portal-waiting": function (portal) {
-                    portal.trigger('activate-portal');
+
                 }
             }
         });
@@ -34,7 +27,13 @@
             display: Display,
             displayOptions:	{
                 clearView: true
-            }
+            },
+            preload: [
+                {"id": "buttons",        "src": "assets/images/buttons.png"},
+                {"id": "mookie",         "src": "assets/images/mookie.png"},
+                {"id": "game-sprites",   "src": "assets/images/game-sprites.png"},
+                {"id": "title-screen",   "src": "assets/images/title-screen.png"}
+            ]
         });
 
 	// Handle when app is ready to use

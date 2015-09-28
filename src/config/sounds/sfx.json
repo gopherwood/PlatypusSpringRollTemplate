@@ -3,9 +3,9 @@
     "path": "assets/audio/",
     "sounds": [{
         "id": "walk",
-        "src": "walk"
+        "preload": true
     },{
         "id": "jump",
-        "src": "jump"
+        "preload": true
     }]
 }

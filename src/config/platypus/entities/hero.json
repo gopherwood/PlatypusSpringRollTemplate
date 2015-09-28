@@ -43,7 +43,7 @@
             },
             "spriteSheet": "mookie"
         },{
-            "type": "Audio",
+            "type": "AudioSFX",
             "audioMap": {
                 "grounded,moving": {"sound": "walk", "loop": 5000},
                 "just-jumped": "jump"
