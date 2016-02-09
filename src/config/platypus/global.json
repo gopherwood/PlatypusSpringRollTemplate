@@ -1,7 +1,0 @@
-{
-    "autoLoad": true,
-    "initialScene": "menu",
-    "fps": 60,
-    "resizeFont": true,
-    "tickerOn": false
-}

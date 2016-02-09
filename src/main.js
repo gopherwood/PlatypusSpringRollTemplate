@@ -33,7 +33,9 @@
                 {"id": "mookie",         "src": "assets/images/mookie.png"},
                 {"id": "game-sprites",   "src": "assets/images/game-sprites.png"},
                 {"id": "title-screen",   "src": "assets/images/title-screen.png"}
-            ]
+            ],
+            responsive: true,
+            state: "menu"
         });
 
 	// Handle when app is ready to use

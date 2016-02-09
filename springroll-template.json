@@ -1,7 +1,7 @@
 {
 	"name" : "Platypus",
 	"id" : "com.gopherwoodstudios.platypus",
-	"version" : "0.6.0",
+	"version" : "0.7.0",
 	"github": "Gopherwood/PlatypusSpringRollTemplate",
 	"rename" : {
 		"gitignore" : ".gitignore",
@@ -10,7 +10,7 @@
 		"bower": "bower.json"
 	},
 	"extend": "io.springroll.default",
-	"required": ["core", "platypus", "sound", "pixi-display"],
+	"required": ["core", "platypus", "states", "sound", "pixi-display"],
 	"modules": [{
 		"id": "platypus",
 		"name": "Platypus Game Engine",
@@ -18,7 +18,7 @@
 		"main": ["components/springroll-platypus/lib/platypus.min.js"],
 		"mainDebug": ["components/springroll-platypus/lib/platypus.combined.js"],
 		"bower": {
-			"springroll-platypus": "~0.6"
+			"springroll-platypus": "~0.7"
 		},
 		"default": true
 	}]
