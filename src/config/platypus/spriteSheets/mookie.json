@@ -1,6 +1,6 @@
 {
     "framerate": 15,
-    "images": ["mookie"],
+    "images": ["assets/images/mookie.png"],
     "frames": {
         "width":  65,
         "height": 83,

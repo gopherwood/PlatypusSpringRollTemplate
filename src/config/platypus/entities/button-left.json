@@ -3,10 +3,7 @@
     "components":[{
         "type": "RenderSprite",
         "spriteSheet": "buttons",
-        "acceptInput": {
-            "click": true,
-            "touch": true
-        },
+        "interactive": true,
         "eventBased": false,
         "animationMap": {
             "pressed": "left,pressed",

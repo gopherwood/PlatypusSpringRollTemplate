@@ -21,8 +21,6 @@
             "gravity" : 0.003,
             "jump": -1.6
         },{
-            "type": "LogicHero"
-        },{
             "type": "Orientation"
         },{
             "type": "LogicDirectionalMovement",
