@@ -1,6 +1,6 @@
 /*global module, require */
 module.exports = function (grunt) {
-    "use strict";
+    'use strict';
     
 	require('grunt-springroll')(grunt);
 	
@@ -55,6 +55,7 @@ module.exports = function (grunt) {
         updateVersion('package.json');
         updateVersion('bower.json');
         updateVersion('src/main.js');
+        updateVersion('README.md');
     });
 
 	// Override-able tasks for adding to the build

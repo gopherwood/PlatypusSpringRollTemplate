@@ -4,7 +4,8 @@
 	"version": "_version_",
 	"config": "src/config",
 	"main": [
-		"src/main.js"
+		"src/main.js",
+        "src/components/*.js"
 	],
 	"libraries": [
 		"components/normalize-less/normalize.less",
