@@ -2,7 +2,7 @@
 module.exports = function (grunt) {
     'use strict';
     
-	require('grunt-springroll')(grunt);
+    require('grunt-springroll')(grunt);
 	
     grunt.registerTask('vBump', function (level) {
         var increment = function (value) {
@@ -59,8 +59,8 @@ module.exports = function (grunt) {
     });
 
 	// Override-able tasks for adding to the build
-	grunt.registerTask('_pre-build', ['vBump:3']);
-	grunt.registerTask('_post-build', []);
-	grunt.registerTask('_pre-build-debug', []);
-	grunt.registerTask('_post-build-debug', []);
+    grunt.registerTask('_pre-build', ['vBump:3']);
+    grunt.registerTask('_post-build', []);
+    grunt.registerTask('_pre-build-debug', []);
+    grunt.registerTask('_post-build-debug', []);
 };
