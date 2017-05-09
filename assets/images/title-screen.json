@@ -1,5 +1,5 @@
 {
-    "images": ["assets/images/title-screen.png"],
+    "images": ["title-screen.png"],
     "frames": [
         [
             0,

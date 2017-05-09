@@ -1,6 +1,6 @@
 {
     "framerate": 15,
-    "images": ["assets/images/buttons.png"],
+    "images": ["buttons.png"],
     "frames": [
         [  0,   0, 138, 138, 0,  69, 69],
         [138,   0, 138, 138, 0,  69, 69],
