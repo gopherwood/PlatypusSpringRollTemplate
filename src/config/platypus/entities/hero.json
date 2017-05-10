@@ -4,10 +4,10 @@
         {
             "type": "EntityController",
             "controlMap":{
-                "key:z":            "jump",
-                "key:space":           "jump",
-                "key:up-arrow":        "jump",
-                "key:w":            "jump",
+                "key:z":        {"triggered": "jump", "released": "jump"},
+                "key:space":    {"triggered": "jump", "released": "jump"},
+                "key:up-arrow": {"triggered": "jump", "released": "jump"},
+                "key:w":        {"triggered": "jump", "released": "jump"},
                 "key:left-arrow":   "go-left",
                 "key:a":               "go-left",
                 "key:right-arrow":     "go-right",
