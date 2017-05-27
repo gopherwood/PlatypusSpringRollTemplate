@@ -4,7 +4,7 @@
 
     // Library dependencies
     var Application = include('springroll.Application'),
-        Display = include('_displayClass_'),
+        Display = include('springroll.pixi.PixiDisplay'),
         app = new Application({ // Create a new application
             name: "_name_",
             canvasId: "stage",

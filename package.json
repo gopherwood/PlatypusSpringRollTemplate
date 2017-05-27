@@ -3,6 +3,7 @@
 	"version": "_version_",
 	"dependencies": {
 		"grunt": "*",
-		"grunt-springroll": "*"
+		"grunt-springroll": "*",
+    	"pixi.js": "^4.5.2"
 	}
 }
